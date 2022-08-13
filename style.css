@@ -1,0 +1,44 @@
+* {
+    color: black;
+}
+body {
+    background-color: royalblue;
+    height: 100vh;
+    padding: 25px;    
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 100vh;
+}
+#top-bar {
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+textarea , #preview, #top-bar {
+    border: 5px solid black;
+}
+textarea , #preview {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 85vh;
+    width: 600px;
+    border-top: none;
+}
+textarea {
+    resize: none;
+}
+#preview {
+    background-color: white;
+}
+.fa-down-left-and-up-right-to-center:hover, .fa-maximize:hover {
+    color: white;
+}
